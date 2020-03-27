@@ -27,6 +27,6 @@ pipelines:
             tasks:
             - exec:
                 arguments:
-                - Hello
+                - Hello World
                 command: echo
                 run_if: passed
